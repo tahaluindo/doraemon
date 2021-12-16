@@ -21,8 +21,8 @@ const defaultMenu = {
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
 ├
-├ Berusahalah untuk patah 
-├ semangat dan tetaplah 
+├ Berusahalah untuk patah 🗿
+├ semangat dan tetaplah 🔥
 ├ menjadi pecundang,
 ├ hidup mu adalah kesia-siaan.㋛
 └────
@@ -31,7 +31,7 @@ const defaultMenu = {
   body: '├ %cmd %islimit %isPremium',
   footer: '└────\n',
   after: `
-*%npmname@^%version*
+*THCABOT@^%version*
 ${'```%npmdesc```'}
 `,
 }
@@ -192,7 +192,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
-          "description": "© Doraemond",
+          "description": "© THCABOT",
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
