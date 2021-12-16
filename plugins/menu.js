@@ -6,7 +6,7 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
   before: `
-┌─〔 %me 〕
+┌─〔 THCABOT 〕
 ├➤ Hai, %name!
 │
 ├➤ Tersisa *%limit Limit*
@@ -27,7 +27,7 @@ const defaultMenu = {
 ├ *hidup mu adalah kesia-siaan.㋛*
 └────
 %readmore`.trimStart(),
-  header: '┌─〔 %category 〕',
+  header: '*┌─❏〔 %category 〕*',
   body: '├ %cmd %islimit %isPremium',
   footer: '└────\n',
   after: `
@@ -199,65 +199,65 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             {
               "rows": [
                 {
-                  "title": `📜 ㋛ Semua Perintah`,
+                  "title": `📜 Semua Perintah ㋛`,
                   "description": "Menampilkan semua perintah bot",
                   "rowId": ".? all"
                 }, {
-                  "title": "🎮 ㋛ game",
+                  "title": "🎮 game ㋛",
                   "description": "All game",
                   "rowId": ".? game"
 
                 }, {
-                  "title": "💳 ㋛ XP",
+                  "title": "💳 XP ㋛",
                   "description": "XP pemakain Bot",
                   "rowId": ".? xp"
 
                 }, {
-                  "title": "🖼 ㋛ Stiker",
+                  "title": "🖼 Stiker ㋛",
                   "description": "maker stiker",
                   "rowId": ".? stiker"
                 }, {
-                  "title": "🐚 ㋛ Kerang Ajaib",
+                  "title": "🐚 Kerang Ajaib ㋛",
                   "description": "Ask something question",
                   "rowId": ".? kerangajaib"
                 }, {
-                  "title": "📝 ㋛ Quotes",
+                  "title": "📝 Quotes ㋛",
                   "description": "Kata-kata bijak",
                   "rowId": ".? quotes"
                 }, {
-                  "title": "🕴 ㋛ Admin",
+                  "title": "🕴  Admin ㋛",
                   "description": "Para elite tapi bukan mastah ㋛",
                   "rowId": ".? admin"
                 }, {
-                  "title": "👥 ㋛ Grup",
+                  "title": "👥 Grup ㋛",
                   "description": "Using di Grup doang anjir",
                   "rowId": ".? grup"
                 }, {
-                  "title": "💎 ㋛ Premium",
+                  "title": "💎 Premium",
                   "description": "wow para elite ⚡",
                   "rowId": ".? premium"
                 }, {
-                  "title": "📡 ㋛ Internet",
+                  "title": "📡 Internet ㋛",
                   "description": "expression your u want",
                   "rowId": ".? internet"
                 }, {
-                  "title": "❓ ㋛ Anonymous",
+                  "title": "❓ Anonymous ㋛",
                   "description": "hacker anjir 😱",
                   "rowId": ".? anonymous"
                 }, {
-                  "title": "✏ ㋛ Nulis & Logo",
+                  "title": "✏ Nulis & Logo ㋛",
                   "description": "Make a tulisan",
                   "rowId": ".? nulis"
                 }, {
-                  "title": "📥 ㋛ Downloader",
+                  "title": "📥 Downloader ㋛",
                   "description": "Mengunduh ",
                   "rowId": ".? downloader"
                 }, {
-                  "title": "🛠 ㋛ Tools",
+                  "title": "🛠 Tools",
                   "description": "Reparations",
                   "rowId": ".? tools"
                 }, {
-                  "title": "😋 ㋛ Fun ",
+                  "title": "😋 Fun ",
                   "description": "Bebas ngapain aja",
                   "rowId": ".? fun"
                 }, {
