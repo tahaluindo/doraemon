@@ -7,24 +7,24 @@ let moment = require('moment-timezone')
 const defaultMenu = {
   before: `
 ┌─〔 %me 〕
-├ Hai, %name!
+├➤ Hai, %name!
 │
-├ Tersisa *%limit Limit*
-├ Role *%role*
-├ Level *%level (%exp / %maxexp)* [%xp4levelup]
-├ %totalexp XP secara Total
+├➤ Tersisa *%limit Limit*
+├➤ Role *%role*
+├➤ Level *%level (%exp / %maxexp)* [%xp4levelup]
+├➤ %totalexp XP secara Total
 │ 
-├ Tanggal: *%week %weton, %date*
-├ Tanggal Islam: *%dateIslamic*
-├ Waktu: *%time*
+├➤ Tanggal: *%week %weton, %date*
+├➤ Tanggal Islam: *%dateIslamic*
+├➤ Waktu: *%time*
 │
-├ Uptime: *%uptime (%muptime)*
-├ Database: %rtotalreg dari %totalreg
+├➤ Uptime: *%uptime (%muptime)*
+├➤ Database: %rtotalreg dari %totalreg
 ├
-├ Berusahalah untuk patah 🗿
-├ semangat dan tetaplah 🔥
-├ menjadi pecundang,
-├ hidup mu adalah kesia-siaan.㋛
+├ *Berusahalah untuk patah 🗿*
+├ *semangat dan tetaplah 🔥*
+├ *menjadi pecundang,*
+├ *hidup mu adalah kesia-siaan.㋛*
 └────
 %readmore`.trimStart(),
   header: '┌─〔 %category 〕',
@@ -191,8 +191,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `${ucapan()}, ${name}`.trim(),
-          "description": "© THCABOT",
+          "title": `${ucapan()}, ${name} Baca !rules Dulu`.trim(),
+          "description": "©THCABOT",
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
