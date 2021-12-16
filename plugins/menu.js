@@ -16,7 +16,6 @@ const defaultMenu = {
 │ 
 ├➤ Tanggal: *%week %weton, %date*
 ├➤ Tanggal Islam: *%dateIslamic*
-├➤ Waktu: *%time*
 │
 ├➤ Uptime: *%uptime (%muptime)*
 ├➤ Database: %rtotalreg dari %totalreg
@@ -191,7 +190,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `${ucapan()}, ${name} Baca !rules Dulu`.trim(),
+          "title": `${ucapan()}, ${name}`.trim(),
           "description": "©THCABOT",
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
@@ -414,18 +413,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat dinihari"
+  res = "Selamat dinihari🗿"
   if (time >= 4) {
-    res = "Selamat pagi"
+    res = "Selamat pagi🗿"
   }
   if (time > 10) {
-    res = "Selamat siang"
+    res = "Selamat siang🗿"
   }
   if (time >= 15) {
-    res = "Selamat sore"
+    res = "Selamat sore🗿"
   }
   if (time >= 18) {
-    res = "Selamat malam"
+    res = "Selamat malam🗿"
   }
   return res
 }
