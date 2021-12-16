@@ -10,7 +10,7 @@ let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (awa
 ├ mensupport saya karena saya 
 ├ sangat menyukai THCA :D
 └────
-`.trim(), '© THCABOT', 'Donasi', '.donasi', m)
+`.trim(), '© THCABOT', 'Rules', '.rules', m)
 handler.help = ['donasi']
 handler.tags = ['info']
 handler.command = /^dona(te|si)$/i
