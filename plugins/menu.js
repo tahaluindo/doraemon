@@ -20,10 +20,10 @@ const defaultMenu = {
 ├➤ Uptime: *%uptime (%muptime)*
 ├➤ Database: %rtotalreg dari %totalreg
 ├
-├ *Berusahalah untuk patah 🗿*
-├ *semangat dan tetaplah 🔥*
-├ *menjadi pecundang,*
-├ *hidup mu adalah kesia-siaan.㋛*
+├ *Terkadang diam adalah*
+├ *suatu pilihan yang tepat*
+├ *ketika pembicaraan*
+├ *hanya akan membuat suasana menjadi sangat kacau.㋛*
 └────
 %readmore`.trimStart(),
   header: '*┌─❏〔 %category 〕*',
@@ -192,103 +192,103 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": "©THCABOT",
-          "buttonText": "Klik Disini",
+          "buttonText": "CLICK HERE",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
               "rows": [
                 {
-                  "title": `📜 Semua Perintah ㋛`,
+                  "title": `[📜] Semua Perintah ㋛`,
                   "description": "Menampilkan semua perintah bot",
                   "rowId": ".? all"
                 }, {
-                  "title": "🎮 game ㋛",
+                  "title": "[🎮] game ㋛",
                   "description": "All game",
                   "rowId": ".? game"
 
                 }, {
-                  "title": "💳 XP ㋛",
+                  "title": "[💳] XP ㋛",
                   "description": "XP pemakain Bot",
                   "rowId": ".? xp"
 
                 }, {
-                  "title": "🖼 Stiker ㋛",
+                  "title": "[🖼] Stiker ㋛",
                   "description": "maker stiker",
                   "rowId": ".? stiker"
                 }, {
-                  "title": "🐚 Kerang Ajaib ㋛",
+                  "title": "[🐚] Kerang Ajaib ㋛",
                   "description": "Ask something question",
                   "rowId": ".? kerangajaib"
                 }, {
-                  "title": "📝 Quotes ㋛",
+                  "title": "[📝] Quotes ㋛",
                   "description": "Kata-kata bijak",
                   "rowId": ".? quotes"
                 }, {
-                  "title": "🕴  Admin ㋛",
+                  "title": "[🕴]  Admin ㋛",
                   "description": "Para elite tapi bukan mastah ㋛",
                   "rowId": ".? admin"
                 }, {
-                  "title": "👥 Grup ㋛",
+                  "title": "[👥] Grup ㋛",
                   "description": "Using di Grup doang anjir",
                   "rowId": ".? grup"
                 }, {
-                  "title": "💎 Premium",
+                  "title": "[💎] Premium",
                   "description": "wow para elite ⚡",
                   "rowId": ".? premium"
                 }, {
-                  "title": "📡 Internet ㋛",
+                  "title": "[📡] Internet ㋛",
                   "description": "expression your u want",
                   "rowId": ".? internet"
                 }, {
-                  "title": "❓ Anonymous ㋛",
+                  "title": "[❓] Anonymous ㋛",
                   "description": "hacker anjir 😱",
                   "rowId": ".? anonymous"
                 }, {
-                  "title": "✏ Nulis & Logo ㋛",
+                  "title": "[✏] Nulis & Logo ㋛",
                   "description": "Make a tulisan",
                   "rowId": ".? nulis"
                 }, {
-                  "title": "📥 Downloader ㋛",
+                  "title": "[📥] Downloader ㋛",
                   "description": "Mengunduh ",
                   "rowId": ".? downloader"
                 }, {
-                  "title": "🛠 Tools",
+                  "title": "[🛠] Tools",
                   "description": "Reparations",
                   "rowId": ".? tools"
                 }, {
-                  "title": "😋 Fun ",
+                  "title": "[😋] Fun ",
                   "description": "Bebas ngapain aja",
                   "rowId": ".? fun"
                 }, {
-                  "title": "🗂 ㋛ Database",
+                  "title": "[🗂] Database ㋛",
                   "description": "Data base bot",
                   "rowId": ".? database"
                 }, {
-                  "title": "☑ ㋛ vote & Absen",
+                  "title": "[☑] vote & Absen ㋛",
                   "description": "isi absen dulu anjir",
                   "rowId": ".? vote"
                 }, {
-                  "title": "😊😇 Al-Qur\'an",
+                  "title": "[😇] Al-Qur\'an",
                   "description": "Mengaji",
                   "rowId": ".? quran"
                 }, {
-                  "title": "〰🎵 ㋛ Pengubah Suara",
+                  "title": "[〰🎵] Pengubah Suara ㋛",
                   "description": "Manipulation your voice",
                   "rowId": ".? audio"
                 }, {
-                  "title": "🗿 ㋛ Jadi Bot",
+                  "title": "[🗿] Jadi Bot ㋛",
                   "description": "Jangan di pake cape gua ",
                   "rowId": ".? jadibot"
                 }, {
-                  "title": "ℹℹ ㋛ info",
+                  "title": "[ℹℹ] info ㋛",
                   "description": "information ",
                   "rowId": ".? info"
                 }, {
-                  "title": "⁉ ㋛ Tanpa Kategori",
+                  "title": "[⁉] Tanpa Kategori ㋛",
                   "description": "serah lu mau ngapain anjir",
                   "rowId": ".? tanpakategori"
                 }, {
-                  "title": "👺 ㋛ Owner",
+                  "title": "[👺] Owner ㋛",
                   "description": "Menu mastah",
                   "rowId": ".? owner"
                 }
