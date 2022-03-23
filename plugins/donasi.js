@@ -3,14 +3,14 @@ let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (awa
 ┌〔 Donasi • support 〕
 ┃❏ cukup gunakan saya dengan 
 ┃❏ bijak 😀
-├
-├
+├❏ 
+├❏
 ┃❏ saya harap kamu menyukai bot 
 ┃❏ saya dan jangan lupa untuk 
 ┃❏ mensupport saya karena saya 
 ┃❏ sangat menyukai THCA :D
 └────
-`.trim(), '©THCABOT', 'Rules', '.rules', m)
+`.trim(), '©THCABOT', 'SEWA BOT', '.sewabot', m)
 handler.help = ['donasi']
 handler.tags = ['info']
 handler.command = /^dona(te|si)$/i
