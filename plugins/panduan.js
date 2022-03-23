@@ -4,7 +4,7 @@ let handler = async(m, { conn, usedPrefix, args, command }) => {
     let name = conn.getName(m.sender)
     let tulisan = `
 Halo ${name}, ${ucapan()} selamat datang di menu panduan THCA Bot. di menu ini kalian bisa mendapatkan panduan soal bot whatsapp.
-┌〔 List Panduan 〕
+┌〔 List Panduan pengguna bot 〕
 ├ how
 ├ owner
 ├ add
@@ -14,7 +14,7 @@ Halo ${name}, ${ucapan()} selamat datang di menu panduan THCA Bot. di menu ini k
 Penggunaan: ${usedPrefix + command} list panduan
 contoh: ${usedPrefix + command} how
 `.trim()
-    if (!args[0]) await conn.sendButtonLoc(m.chat, await(await fetch(image)).buffer(), tulisan, watermark, 'Menu', '.menu', m)
+    if (!args[0]) await conn.sendButtonLoc(m.chat, await(await fetch(image)).buffer(), tulisan, watermark, 'PEMBAYARAN', '.rules', m)
     let json = JSON.parse(JSON.stringify(global.panduan))
     let { search, deskripsi, judul } = json.find(v => v.search == args[0])
         return conn.send3ButtonLoc(m.chat, await(await fetch(image)).buffer(), `No. ${index} ${judul}
