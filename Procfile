@@ -1,1 +1,1 @@
-web: node . --server
+web: npm i && node . --server
